@@ -12,7 +12,5 @@ end
 
 def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  array.find {|word| 
-    valid_calls.find {|call| call == word}
-  }  
+  array.find {|wordvalid_calls.find {|call| call == word}}  
 end  
