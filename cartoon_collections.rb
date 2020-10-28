@@ -10,6 +10,7 @@ def long_planeteer_calls(array)
   array.any? {|word| word.length > 4}
 end  
 
+valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 def find_valid_calls(array)
   array.each {|word| 
     valid_calls.find {|call| call == word}
